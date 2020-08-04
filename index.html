@@ -6,11 +6,21 @@
     <meta name="keywords" content='lecture, devmountain, cj, ice cream'/>
     <meta name="author" content='CJ PILLING'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>HTML 1 Lecture</title>
   </head>    
   <body>
+   <!-- STYLE TAG, NOT OPTIMAL -->
+    <style>
+      a {
+        font-size: 24px;
+        font-family: cursive;
+      }
+    </style>
     <header>
-      <h1>HTML/CSS 1 Lecture Code</h1>
+      <!-- INLINE STYLES, ALSO NOT OPTIMAL -->
+      <h1 style="color: blue;font-size: 18px;"">HTML/CSS 1 Lecture Code</h1>
       <nav>
         <a href="https://www.google.com">Home</a>
         <a href="https://www.ebay.com">About</a>
@@ -18,7 +28,7 @@
       </nav>
     </header>
       <div>
-        <p>CJ's List of Tanks</p>
+        <p id="cj-list-title">CJ's List of Tanks</p>
         <ol>
           <li>Fish</li>
           <li>Tank</li>      
@@ -36,6 +46,22 @@
         <img 
         alt="Reese's Puffs"          
         src="https://vegfaqs.com/wp-content/uploads/2019/01/reeses-puffs.jpg" />
+        <article>
+          asoijdfoasidjfaosidjf faoisdjfsajdf asdifojasdfioj asdifjosadijfsa jasdfjisdfojs
+        </article>
+        <p class="cj-text"> Cj is really alright </p>
+        <img
+        class="giant-bob sponge-image"
+        alt="Spongebob Happy"
+        src="https://i.ytimg.com/vi/CbiclKOVKhU/maxresdefault.jpg"
+        />
+        <p class= "lorem-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam at adipisci optio modi repellat perferendis esse neque voluptates sed dolores labore iste, obcaecati ullam. Eveniet necessitatibus tempore nemo voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsa recusandae incidunt deleniti numquam laboriosam ipsam magnam reprehenderit culpa impedit, tempora aut rerum dolorum veniam ullam maiores, enim quidem. Illo.lorem  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sint dolores asperiores praesentium id consectetur minima nulla magni quos voluptatibus itaque similique officiis rerum, sed illum unde voluptate sunt maxime!</p>
       </div>
+    <div class="outer-box">
+      <div class="inner-box">
+        asoijdfoasidjfaosidjf faoisdjfsajdf asdifojasdfioj asdifjosadijfsa jasdfjisdfojs
+      </div>
+      <div class="inner-box" id="second-box"></div>
+    </div>
   </body>
 </html>
